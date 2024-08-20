@@ -67,10 +67,10 @@ function selected(route: any, nav: NavLink) {
 </script>
 
 <template>
-  <div class="bg-gray-100 dark:bg-[#000000]">
+  <div class="bg-green-100 dark:bg-[#000000]">
     <!-- sidebar -->
     <div
-      class="w-64 fixed z-50 left-0 top-0 bottom-0 overflow-auto bg-base-100 border-r border-gray-100 dark:border-gray-700"
+      class="w-64 fixed z-50 left-0 top-0 bottom-0 overflow-auto bg-base-100 border-r border-green-100 dark:border-green-700"
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
@@ -107,7 +107,7 @@ function selected(route: any, nav: NavLink) {
             @click="changeOpen(index)"
           />
           <div
-            class="collapse-title !py-0 px-4 flex items-center cursor-pointer hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+            class="collapse-title !py-0 px-4 flex items-center cursor-pointer hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
           >
             <Icon
               v-if="item?.icon?.icon"
@@ -144,7 +144,7 @@ function selected(route: any, nav: NavLink) {
               <RouterLink
                 v-if="isNavLink(el)"
                 @click="sidebarShow = false"
-                class="hover:bg-gray-100 dark:hover:bg-[#8b1a1a] rounded cursor-pointer px-3 py-2 flex items-center"
+                class="hover:bg-green-100 dark:hover:bg-[#8b1a1a] rounded cursor-pointer px-3 py-2 flex items-center"
                 :class="{
                   '!bg-primary': selected($route, el),
                 }"
@@ -165,7 +165,7 @@ function selected(route: any, nav: NavLink) {
                   :src="el?.icon?.image"
                   class="w-6 h-6 rounded-full mr-3 ml-4"
                   :class="{
-                    'border border-gray-300 bg-white': selected($route, el),
+                    'border border-green-300 bg-white': selected($route, el),
                   }"
                 />
                 <div
@@ -185,7 +185,7 @@ function selected(route: any, nav: NavLink) {
           v-if="isNavLink(item)"
           :to="item?.to"
           @click="sidebarShow = false"
-          class="cursor-pointer rounded-lg px-4 flex items-center py-2 hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="cursor-pointer rounded-lg px-4 flex items-center py-2 hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon
             v-if="item?.icon?.icon"
@@ -228,7 +228,7 @@ function selected(route: any, nav: NavLink) {
         <a
           href="https://osmosis.zone"
           target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <img
             src="https://ping.pub/logos/osmosis.jpg"
@@ -243,7 +243,7 @@ function selected(route: any, nav: NavLink) {
         <a
           href="https://celestia.org"
           target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <img
             src="https://ping.pub/logos/celestia.png"
@@ -258,7 +258,7 @@ function selected(route: any, nav: NavLink) {
         <a
           href="https://becole.com"
           target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <img
             src="https://becole.com/static/logo/logo_becole.png"
@@ -274,7 +274,7 @@ function selected(route: any, nav: NavLink) {
         <div class="px-4 text-sm pt-2 text-green-400 pb-2 uppercase">Tools</div>
         <RouterLink
           to="/wallet/suggest"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon icon="mdi:frequently-asked-questions" class="text-xl mr-2" />
           <div
@@ -290,7 +290,7 @@ function selected(route: any, nav: NavLink) {
         <a
           href="https://twitter.com/itrocket_team"
           target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon icon="mdi:twitter" class="text-xl mr-2" />
           <div
@@ -303,7 +303,7 @@ function selected(route: any, nav: NavLink) {
           v-if="showDiscord"
           href="https://discord.com/invite/CmjYVSr6GW"
           target="_blank"
-          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon icon="mdi:discord" class="text-xl mr-2" />
           <div
@@ -315,7 +315,7 @@ function selected(route: any, nav: NavLink) {
         <a
           href="https://github.com/ping-pub/explorer/discussions"
           target="_blank"
-          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-green-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon icon="mdi:frequently-asked-questions" class="text-xl mr-2" />
           <div
