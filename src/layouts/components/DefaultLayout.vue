@@ -124,7 +124,7 @@ function selected(route: any, nav: NavLink) {
               class="w-6 h-6 rounded-full mr-3"
             />
             <div
-              class="text-base capitalize flex-1 text-gray-700 dark:text-gray-200 whitespace-nowrap"
+              class="text-base capitalize flex-1 text-green-700 dark:text-green-200 whitespace-nowrap"
             >
               {{ item?.title }}
             </div>
@@ -169,7 +169,7 @@ function selected(route: any, nav: NavLink) {
                   }"
                 />
                 <div
-                  class="text-base capitalize text-gray-500 dark:text-gray-300"
+                  class="text-base capitalize text-green-500 dark:text-green-300"
                   :class="{
                     '!text-white': selected($route, el),
                   }"
@@ -202,7 +202,7 @@ function selected(route: any, nav: NavLink) {
             class="w-6 h-6 rounded-full mr-3 border border-blue-100"
           />
           <div
-            class="text-base capitalize flex-1 text-gray-700 dark:text-gray-200 whitespace-nowrap"
+            class="text-base capitalize flex-1 text-green-700 dark:text-green-200 whitespace-nowrap"
           >
             {{ item?.title }}
           </div>
@@ -216,13 +216,13 @@ function selected(route: any, nav: NavLink) {
         </RouterLink>
         <div
           v-if="isNavTitle(item)"
-          class="px-4 text-sm text-gray-400 pb-2 uppercase"
+          class="px-4 text-sm text-green-400 pb-2 uppercase"
         >
           {{ item?.heading }}
         </div>
       </div>
       <div class="px-2">
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+        <div class="px-4 text-sm pt-2 text-green-400 pb-2 uppercase">
           {{ $t('module.sponsors') }}
         </div>
         <a
@@ -235,7 +235,7 @@ function selected(route: any, nav: NavLink) {
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-sm capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Osmosis
           </div>
@@ -250,7 +250,7 @@ function selected(route: any, nav: NavLink) {
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-sm capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Celestia
           </div>
@@ -265,26 +265,26 @@ function selected(route: any, nav: NavLink) {
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-sm capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Becole
           </div>
         </a>
 
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">Tools</div>
+        <div class="px-4 text-sm pt-2 text-green-400 pb-2 uppercase">Tools</div>
         <RouterLink
           to="/wallet/suggest"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#8b1a1a]"
         >
           <Icon icon="mdi:frequently-asked-questions" class="text-xl mr-2" />
           <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-base capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Wallet Helper
           </div>
         </RouterLink>
 
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+        <div class="px-4 text-sm pt-2 text-green-400 pb-2 uppercase">
           {{ $t('module.links') }}
         </div>
         <a
@@ -294,7 +294,7 @@ function selected(route: any, nav: NavLink) {
         >
           <Icon icon="mdi:twitter" class="text-xl mr-2" />
           <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-base capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Twitter
           </div>
@@ -307,7 +307,7 @@ function selected(route: any, nav: NavLink) {
         >
           <Icon icon="mdi:discord" class="text-xl mr-2" />
           <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-base capitalize flex-1 text-green-600 dark:text-green-200"
           >
             Discord
           </div>
@@ -319,7 +319,7 @@ function selected(route: any, nav: NavLink) {
         >
           <Icon icon="mdi:frequently-asked-questions" class="text-xl mr-2" />
           <div
-            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+            class="text-base capitalize flex-1 text-green-600 dark:text-green-200"
           >
             FAQ
           </div>
