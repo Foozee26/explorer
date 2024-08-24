@@ -8,12 +8,12 @@
     "coin_type": "60",
     "min_tx_fee": "40000",
     "addr_prefix": "swtr",
-    "logo": "/logos/arkeo.jpg",
+    "logo": "/logos/arkeo.png",
     "assets": [{
         "base": "aswtr",
         "symbol": "SWTR",
         "exponent": "18", 
         "coingecko_id": "",
-        "logo": "/logos/arkeo.jpg"
+        "logo": "/logos/arkeo.png"
     }]
 }
