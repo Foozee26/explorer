@@ -1,0 +1,19 @@
+{
+    "chain_name": "warden-chiado",
+    "coingecko": "",
+    "api": ["warden-testnet-api.blocknodex.com"],
+    "rpc": ["warden-testnet-rpc.blocknodex.com"],
+    "snapshot_provider": "",
+    "sdk_version": "v0.50.9-evmos-warden",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "warden",
+    "logo": "/logos/warden.jpg",
+    "assets": [{
+        "base": "award",
+        "symbol": "WARD",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/warden.jpg"
+    }]
+}
