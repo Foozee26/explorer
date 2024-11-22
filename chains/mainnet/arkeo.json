@@ -1,0 +1,19 @@
+{
+    "chain_name": "arkeo",
+    "coingecko": "",
+    "api": ["https://arkeo-testnet-api.blocknodex.com/"], 
+    "rpc": ["https://arkeo-testnet-rpc.blocknodex.com/"],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.5",
+    "coin_type": "60",
+    "min_tx_fee": "40000",
+    "addr_prefix": "swtr",
+    "logo": "/logos/arkeo.jpg",
+    "assets": [{
+        "base": "aswtr",
+        "symbol": "SWTR",
+        "exponent": "18", 
+        "coingecko_id": "",
+        "logo": "/logos/swisstronic.jpg"
+    }]
+}
