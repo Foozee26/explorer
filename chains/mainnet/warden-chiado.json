@@ -8,12 +8,12 @@
     "coin_type": "118",
     "min_tx_fee": "200",
     "addr_prefix": "warden",
-    "logo": "/logos/warden.jpg",
+    "logo": "/logos/warden.png",
     "assets": [{
         "base": "award",
         "symbol": "WARD",
         "exponent": "18",
         "coingecko_id": "",
-        "logo": "/logos/warden.jpg"
+        "logo": "/logos/warden.png"
     }]
 }
