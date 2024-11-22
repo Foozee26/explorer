@@ -4,16 +4,16 @@
     "api": ["https://arkeo-testnet-api.blocknodex.com/"], 
     "rpc": ["https://arkeo-testnet-rpc.blocknodex.com/"],
     "snapshot_provider": "",
-    "sdk_version": "0.47.5",
-    "coin_type": "60",
-    "min_tx_fee": "40000",
-    "addr_prefix": "swtr",
+    "sdk_version": "0.46.13",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "addr_prefix": "tarkeo",
     "logo": "/logos/arkeo.jpg",
     "assets": [{
-        "base": "aswtr",
-        "symbol": "SWTR",
-        "exponent": "18", 
+        "base": "uarkeo",
+        "symbol": "ARKEO",
+        "exponent": "6", 
         "coingecko_id": "",
-        "logo": "/logos/swisstronic.jpg"
+        "logo": "/logos/arkeo.jpg"
     }]
 }
