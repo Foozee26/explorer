@@ -72,9 +72,15 @@ function selected(route: any, nav: NavLink) {
     <div
       class="w-64 fixed z-50 left-0 top-0 bottom-0 overflow-auto bg-base-100 border-r border-gray-100 dark:border-gray-700"
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
-    >
+   >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
+          <!-- Logo ve yazıyı hizalamak için flex kullanıyoruz -->
+          <img
+            src="/public/logos/x.png" <!-- Buraya logo resminin yolunu koyun -->
+            alt="Logo"
+            class="w-8 h-8 mr-2" <!-- Logo boyutunu ayarlayın (w-8 ve h-8) -->
+          />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             BlockNodeX
           </h1>
