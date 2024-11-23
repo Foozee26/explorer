@@ -75,7 +75,7 @@ function selected(route: any, nav: NavLink) {
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-15 h-15" src="../../assets/x.png" />
+          <img class="w-14 h-14" src="../../assets/x.png" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             BlockNodeX
           </h1>
