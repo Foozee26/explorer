@@ -74,7 +74,7 @@ function selected(route: any, nav: NavLink) {
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
-        <RouterLink to="/logos/x.png" class="flex items-center">
+        <RouterLink to="/" class="flex items-center">
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             BlockNodeX
           </h1>
