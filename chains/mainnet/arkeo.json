@@ -1,8 +1,8 @@
 {
     "chain_name": "arkeo",
     "coingecko": "",
-    "api": ["https://arkeo-testnet-api.blocknodex.com/"], 
-    "rpc": ["https://arkeo-testnet-rpc.blocknodex.com/"],
+    "api": ["https://arkeo-testnet-api.mictonode.com"], 
+    "rpc": ["https://arkeo-testnet-rpc.mictonode.com"],
     "snapshot_provider": "",
     "sdk_version": "0.46.13",
     "coin_type": "118",
