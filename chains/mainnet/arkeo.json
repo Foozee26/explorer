@@ -3,6 +3,8 @@
     "coingecko": "",
     "api": ["https://arkeo-testnet-api.mictonode.com"], 
     "rpc": ["https://arkeo-testnet-rpc.mictonode.com"],
+    "api": ["https://empe-testnet-api.mictonode.com"],
+    "rpc": ["https://empe-testnet-rpc.mictonode.com"],
     "snapshot_provider": "",
     "sdk_version": "0.46.13",
     "coin_type": "118",
