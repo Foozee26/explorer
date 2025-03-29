@@ -1,8 +1,8 @@
 {
     "chain_name": "pell",
     "coingecko": "",
-    "api": ["https://pell-testnet-api.hibunode.com"], 
-    "rpc": ["https://pell-testnet-rpc.hibunode.com"],
+    "api": ["https://pell-testnet-api.blocknodex.com/"], 
+    "rpc": ["https://pell-testnet-rpc.blocknodex.com/"],
     "snapshot_provider": "",
     "sdk_version": "0.50.8",
     "coin_type": "60",
