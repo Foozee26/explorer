@@ -2,8 +2,6 @@
   "chain_name": "empe",
   "api": ["https://empe-testnet-api.blocknodex.com"],
   "rpc": ["https://empe-testnet-rpc.blocknodex.com"],
-  "api": ["https://empe-testnet-api.mictonode.com"],
-  "rpc": ["https://empe-testnet-rpc.mictonode.com"],
   "coin_type": 118,
   "min_tx_fee": 200,
   "sdk_version": "v0.47.9",
