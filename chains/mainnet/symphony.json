@@ -2,8 +2,8 @@
   "chain_name": "symphony",
   "api": [
     {
-      "provider": "Vinjan.Inc",
-      "address": "https://api-symphonyd.vinjan.xyz/"
+      "provider": "BlockNodeX",
+      "address": "https://symphony-testnet-api.blocknodex.com/"
     },
     {
       "address": "https://symphony-api.kleomedes.network",
@@ -16,8 +16,8 @@
   ],
   "rpc": [
     {
-      "provider": "Vinjan.Inc",
-      "address": "https://rpc-symphonyd.vinjan.xyz/"
+      "provider": "BlockNodeX",
+      "address": "https://symphony-testnet-rpc.blocknodex.com/"
     },
     {
       "address": "https://symphony-rpc.kleomedes.network",
