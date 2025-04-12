@@ -8,12 +8,12 @@
     "coin_type": "118",
     "min_tx_fee": "1000",
     "addr_prefix": "kii",
-    "logo": "/logos/kiichain.png",
+    "logo": "/logos/logo-gradient.svg",
     "assets": [{
         "base": "ukii",
         "symbol": "KII",
         "exponent": "6",
         "coingecko_id": "",
-        "logo": "/logos/kiichain.png"
+        "logo": "/logos/logo-gradient.svg"
     }]
 }
