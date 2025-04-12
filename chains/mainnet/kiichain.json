@@ -1,5 +1,5 @@
 {
-    "chain_name": "kiichain-testnet",
+    "chain_name": "kiichain",
     "coingecko": "",
     "api": ["https://lcd.dos.sentry.testnet.v3.kiivalidator.com"],
     "rpc": ["https://rpc.dos.sentry.testnet.v3.kiivalidator.com"],
