@@ -3,6 +3,8 @@
     "coingecko": "",
     "api": ["https://lcd.dos.sentry.testnet.v3.kiivalidator.com"],
     "rpc": ["https://rpc.dos.sentry.testnet.v3.kiivalidator.com"],
+    "api": ["https://kiichain-api.blocknodex.com/"],
+    "rpc": ["https://kiichain-rpc.blocknodex.com/"],
     "snapshot_provider": "",
     "sdk_version": "v0.45.10",
     "coin_type": "118",
